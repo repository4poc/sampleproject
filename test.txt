@@ -1,6 +1,0 @@
-Welcome varinder gupta 
-How are you..
-List of items
-<ol>
-  <li>cup<li>
-</ol>
