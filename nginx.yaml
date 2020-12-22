@@ -1,7 +1,7 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  creationTimestamp: null
   labels:
     app: mynginx
   name: mynginx
@@ -13,12 +13,9 @@ spec:
   strategy: {}
   template:
     metadata:
-      creationTimestamp: null
       labels:
         app: mynginx
     spec:
       containers:
       - image: nginx
         name: nginx
-        resources: {}
-status: {}
